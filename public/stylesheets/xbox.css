@@ -1,0 +1,111 @@
+/* IMG MAIN DIV */
+.xbox-img {
+  position: relative;
+}
+
+/* IMG TEXT */
+.top-left {
+  position: absolute;
+  top: 20%;
+  padding-left: 15%;
+}
+
+.top-left h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 2.5vw;
+}
+
+.top-left p {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5vw;
+}
+
+.icon-hr {
+  width: 50%;
+  margin: auto;
+  border: 0.1px solid #73ad213b;
+}
+
+/* ICON MAIN DIV */
+.xbox-icons {
+  display: flex;
+  justify-content: center;
+  margin: 28px 0 35px;
+}
+
+/* ALL DIVS (inside xbox-icons)*/
+.xbox-icons div {
+  text-align: center;
+  margin: 0 3vw;
+}
+
+.xbox-icons i {
+  font-size: 35px;
+  color: green;
+}
+
+.xbox-icons p {
+  margin: 0;
+  padding: 0;
+  font-size: smaller;
+  color: rgb(0, 128, 0);
+}
+
+/* CARD&PAGINATION WRAP DIV */
+.xbox-shop {
+  background-color: #e7e7e7;
+}
+
+.xbox-shop hr {
+  width: 50%;
+  margin: auto;
+  border: 0.1px solid #73ad214b;
+}
+
+.xbox-items-header {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  color: rgb(21, 119, 21);
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* CARDS MAIN DIV */
+.xbox-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.xbox-card {
+  margin: 0 10px;
+  border: 1px solid black;
+}
+
+/* PAGINATION MAIN DIV */
+.pagination {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  border: 1px solid rgba(22, 22, 22, 0.445);
+}
+
+.pagination a.active {
+  background-color: #329680;
+  color: white;
+  border: 1px solid rgba(43, 66, 68, 0.685);
+}
+
+.pagination a:hover {
+  background-color: #32968069;
+}

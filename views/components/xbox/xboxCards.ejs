@@ -1,0 +1,23 @@
+<h1 class="xbox-items-header">XBOX GAMES</h1>
+<div class="xbox-items">
+  <% data.forEach(item => { %>
+  <div
+    class="card text-white bg-success mb-3 xbox-card"
+    style="max-width: 18rem"
+  >
+    <div class="card-img">
+      <img
+        src="/images/xbox pics/xbox_logo.png"
+        class="card-img-top"
+        alt="xboximg"
+      />
+    </div>
+    <div class="card-header">
+      <h6 class="text-center"><%= item.productname%></h6>
+    </div>
+    <div class="card-body">
+      <h6 class="text-center"><%= item.productprice%>$</h6>
+    </div>
+  </div>
+  <% }) %>
+</div>

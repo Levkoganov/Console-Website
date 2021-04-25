@@ -1,0 +1,20 @@
+<h1 class="ps4-items-header">PLAYSTATION GAMES</h1>
+<div class="ps4-items">
+  <% data.forEach(item => { %>
+  <div class="card text-white bg-dark mb-3 ps4-card" style="max-width: 18rem">
+    <div class="card-img">
+      <img
+        src="/images/playstation pics/ps4_logo.jpg"
+        class="card-img-top"
+        alt="ps4img"
+      />
+    </div>
+    <div class="card-header">
+      <h6 class="text-center"><%= item.productname%></h6>
+    </div>
+    <div class="card-body">
+      <h6 class="text-center"><%= item.productprice%>$</h6>
+    </div>
+  </div>
+  <% }) %>
+</div>

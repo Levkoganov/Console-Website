@@ -1,0 +1,150 @@
+/*** CAROUSEL PAGE ***/
+
+/* CAROUSEL TOP TEXT */
+.text-top {
+  top: 0;
+  bottom: auto;
+  padding-top: 10px;
+  font-family: 'Changa', sans-serif;
+}
+
+.text-top h6 {
+  font-size: 1vw;
+}
+
+/* CAROUSEL BOT TEXT */
+.PS-carousel-captio {
+  padding-bottom: 15px;
+  bottom: 0;
+}
+
+.PS-carousel-captio h6 {
+  margin: 5px;
+  font-size: 0.8vw;
+  font-family: 'Changa', sans-serif;
+}
+/* CAROUSEL BTN(SONY) */
+.PSbutton {
+  display: block;
+  width: 60%;
+  background-color: #004098;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1vw;
+  margin: 1px 2px;
+  cursor: pointer;
+  padding: 5px 50px;
+  font-family: 'Changa', sans-serif;
+}
+
+/* CAROUSEL BOT TEXT */
+.xbox-carousel-captio {
+  padding-bottom: 15px;
+  bottom: 0;
+}
+
+.xbox-carousel-captio h6 {
+  margin: 5px;
+  font-size: 0.8vw;
+  font-family: 'Changa', sans-serif;
+}
+
+/* CAROUSEL BTN(XBOX) */
+.XBOXbutton {
+  display: block;
+  width: 60%;
+  background-color: green;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1vw;
+  margin: 1px 2px;
+  cursor: pointer;
+  padding: 5px 50px;
+  font-family: 'Changa', sans-serif;
+}
+
+/*** HOMESECTION PAGE ***/
+
+/* MAIN DIV */
+.home-section {
+  background-color: #243545;
+}
+
+.home-title {
+  padding: 10px;
+}
+
+.home-title h4 {
+  color: white;
+  font-family: 'Changa', sans-serif;
+}
+
+.home-section hr {
+  width: 50%;
+  margin: auto;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.home-redirect {
+  color: white;
+}
+
+/* DIV(home-redirect) FLEX WARP */
+.warp {
+  flex-wrap: wrap;
+}
+
+.main-ps-btn {
+  background-color: #004098;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 80px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+.main-fangamer-btn {
+  background-color: rgb(190, 10, 10);
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 55px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+.main-xbox-btn {
+  background-color: green;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 55px;
+  cursor: pointer;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+.move-center {
+  text-align: center;
+  font-family: 'Changa', sans-serif;
+}
+
+.move-center h6 {
+  padding-bottom: 5px;
+  font-family: 'Changa', sans-serif;
+}

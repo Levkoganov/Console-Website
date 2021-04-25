@@ -1,0 +1,70 @@
+/* AUTH PAGE */
+.auth-header {
+  font-weight: 550;
+  font-family: 'Changa', sans-serif;
+}
+
+.main-auth-div {
+  font-weight: 700;
+  font-family: 'Changa', sans-serif;
+  font-size: 30px;
+  padding-bottom: 4.1%;
+}
+
+.form-card {
+  background-color: #efefef;
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+}
+
+/* REGISTER PAGE */
+.register-wrap {
+  font-family: 'Changa', sans-serif;
+}
+
+.register-card {
+  background-color: #efefef;
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+}
+
+.register-form-group {
+  font-size: 20px;
+}
+
+/* LOGIN PAGE */
+.main-login-div {
+  padding-bottom: 6.5%;
+  font-family: 'Changa', sans-serif;
+}
+
+.login-card {
+  background-color: #efefef;
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+}
+
+.login-form-group {
+  font-size: 20px;
+}
+
+/* UPDATE PAGE */
+.update-header {
+  font-weight: 550;
+  font-family: 'Changa', sans-serif;
+}
+
+.main-update-div {
+  padding-bottom: 10.5%;
+  font-family: 'Changa', sans-serif;
+}
+
+.update-card {
+  background-color: #efefef;
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+}

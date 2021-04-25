@@ -1,0 +1,50 @@
+/* MAIN FOOTER DIV */
+.footer-wrap {
+  border-bottom: 2px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+  padding: 10px 0;
+}
+
+.footer-img {
+  margin-bottom: 10px;
+}
+
+.footer-icon {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.footer-icon i.fab {
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px rgb(0, 0, 0);
+  padding: 0.4em 0.5em;
+  font-size: 20px;
+  background-color: #243545;
+  color: white;
+  margin-left: 10px;
+}
+
+.footer-paragraph {
+  font-size: small;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.footer-paragraph p {
+  margin: 0 0 0 20px;
+}
+
+/* CREDIT DIV */
+.credit {
+  font-family: 'Oswald', sans-serif;
+  background-color: #243545;
+  color: #dedede;
+  font-weight: 300;
+  bottom: 0;
+}
+
+.credit p {
+  padding: 0;
+  margin: 0;
+}

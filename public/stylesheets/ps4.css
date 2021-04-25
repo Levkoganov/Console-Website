@@ -1,0 +1,99 @@
+/* ICON WRAP DIV */
+.icons-div {
+  background-color: #ebecf9;
+}
+
+.ps4-icon-hr1 {
+  width: 45%;
+  margin: auto;
+  border: 0.1px solid #0059ad38;
+}
+
+/* ICON MAIN DIV */
+.ps4-icons {
+  display: flex;
+  justify-content: center;
+  margin: 28px 0 35px;
+}
+
+/* ALL DIVS (inside ps4-icons)*/
+.ps4-icons div {
+  text-align: center;
+  margin: 0 3vw;
+}
+
+.ps4-icons i {
+  font-size: 35px;
+  color: #005aad;
+}
+
+.ps4-icons p {
+  margin: 0;
+  padding: 0;
+  font-size: smaller;
+  color: #343a40;
+}
+
+.ps4-icon-hr2 {
+  width: 50%;
+  margin: auto;
+  border: 0.1px solid #0059ad38;
+}
+
+/* CARD&PAGINATION WRAP DIV */
+.ps4-shop {
+  background-color: #dadbe9;
+}
+
+.ps4-shop hr {
+  width: 50%;
+  margin: auto;
+  border: 0.1px solid #0059ad38;
+}
+
+.ps4-items-header {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  color: #005aad;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* CARDS MAIN DIV */
+.ps4-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ps4-card {
+  margin: 0 10px;
+  border: 1px solid black;
+}
+
+/* PAGINATION MAIN DIV */
+.ps4-pagination {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.ps4-pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  border: 1px solid rgba(22, 22, 22, 0.445);
+}
+
+.ps4-pagination a.active {
+  background-color: #005aad;
+  color: white;
+  border: 1px solid rgba(43, 66, 68, 0.685);
+}
+.ps4-pagination a:hover {
+  background-color: #0059ad4b;
+}

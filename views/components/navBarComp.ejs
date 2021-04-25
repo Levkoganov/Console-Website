@@ -1,0 +1,29 @@
+<nav class="menu">
+  <ul class="main-menu">
+    <li class="<%= page_name == 'home' ? 'active' : '' %>">
+      <a href="/">home</a>
+    </li>
+    <li class="<%= page_name == 'ps4' ? 'active' : '' %>">
+      <a href="/ps4">sony</a>
+    </li>
+    <li class="<%= page_name == 'xbox' ? 'active' : '' %>">
+      <a href="/xbox">xbox</a>
+    </li>
+    <% if(typeof username != "undefined") { %>
+    <li class="with-submenu">
+      <%=username %>
+      <i class="fa fa-caret-down"></i>
+      <ul class="submenu">
+        <a class="dropdown-item" href="/setting/update">Setting</a>
+        <a class="dropdown-item" href="/auth/logout">Logout</a>
+      </ul>
+    </li>
+    <% } else { %>
+    <li <% if (page_name == 'auth' || page_name == 'login' || page_name == 'register') { %>
+      class="active" <% } %>
+      >
+      <a href="/auth">signin</a>
+    </li>
+    <% } %>
+  </ul>
+</nav>

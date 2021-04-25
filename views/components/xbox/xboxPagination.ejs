@@ -1,0 +1,18 @@
+<div class="pagination">
+    <% if(previouspage || previouspage == 0) { %> 
+        <a href="/xbox?start=<%= previouspage %> "> &laquo; </a>
+    <% } %> 
+
+    <% for (let i=0; i<max; i++ ) { %>
+        <a <% if(i == 0 && nextpage == 5 || i == 1 && page == 5 || i == 2 && page == 10 || i == 3 && page == 15) { %>
+        class="active"
+        <% } else { %>
+        class=""
+        <% } %>
+        href="/xbox?start=<%= (i*5) %>"> <%=(i+1) %> </a>
+        <% } %>
+
+    <% if(nextpage) { %> 
+        <a href="/xbox?start=<%= nextpage %> "> &raquo; </a>
+    <% } %> 
+</div>

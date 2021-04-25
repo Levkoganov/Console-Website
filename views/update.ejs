@@ -1,0 +1,35 @@
+<section>
+  <h1 class="text-center mt-5 update-header">UPDATE USERNAME</h1>
+  <div class="mt-5 main-update-div">
+    <div class="col-md-6 m-auto">
+      <div class="card card-body update-card">
+        <div><%- include('./components/errormsg') %></div>
+        <form action="/setting/update" method="POST">
+          <div class="form-group">
+            <label for="name">Corrent username:</label>
+            <input
+              type="text"
+              name="oldname"
+              id="oldname"
+              class="form-control"
+              value="<%=username %>"
+              readonly
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">New username:</label>
+            <input
+              type="text"
+              id="newname"
+              name="newname"
+              class="form-control"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            UPDATE
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
