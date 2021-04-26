@@ -2,7 +2,7 @@
 Console Website using Node.js and EJS
 (database files can be found on the Database Folder)
 
-how to init project:(project require MongoDB and mySQL files)
+how to init project:(project require MongoDB and mySQL)
 1. npm i
 2. use Database folder
 3. project require .env
